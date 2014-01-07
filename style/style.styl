@@ -1,0 +1,72 @@
+body
+  min-width 530px
+  word-wrap break-word
+
+.header
+  margin 20px
+
+li
+  list-style none
+  &:hover
+    background-color #F5F5F5
+
+ul
+  margin 20px
+
+.task
+  float right
+
+h2
+  font-size 30px
+
+ul.grid
+  li
+    float left
+    width 20%
+    padding 10px
+
+.date_time
+  font-size 12px
+
+ul.list
+  li
+    width 100%
+    padding 10px
+    border-top 1px solid #F5F5F5
+    &:after
+      content ""
+      display block
+      clear both
+    p, .description_area
+      width 60%
+      margin 0 auto
+    h2, .title_area
+      float left
+      max-width 15%
+    div
+      float right
+      width 15%
+
+textarea
+  height auto
+  max-width 100%
+
+input[type='submit']:focus
+  outline none
+
+.tiny
+  margin 10px 0 0 0
+i
+  font-size 32px
+  margin-left 10px
+  cursor pointer
+  &.fi-check
+    color #1E90FF
+  &.fi-clipboard-pencil
+    color #32CD32
+  &.fi-pencil
+    color #32CD32
+  &.fi-x
+    color red
+.fi-checkbox
+  color #ff0000

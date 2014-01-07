@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>ToDo</title>
+
+    <link rel="stylesheet" type="text/css" href="style/foundation/normalize.css">
+    <link rel="stylesheet" type="text/css" href="style/foundation/foundation.css">
+    <link rel="stylesheet" type="text/css" href="style/foundation/icons/foundation-icons.css">
+    <link rel="stylesheet" type="text/css" href="style/foundation/foundation_icons_general/stylesheets/general_foundicons.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+
+</head>
+<body>
+
+    <div id="myModal" data-reveal class="reveal-modal">
+        <form>
+            <input type="text" placeholder="Title" id="title"/>
+            <textarea name="" id="description" cols="30" rows="10" placeholder="Description"></textarea>
+            <input type="submit" value="Add" class="button expand"/>
+        </form>
+        <a class="close-reveal-modal">&#215;</a>
+    </div>
+
+    <div class="todo">
+        <div class="header">
+            <a class="button" href="#" id="skin">Change skin</a>
+            <a class="button" href="#" id="showDone">Hide done task</a>
+            <a class="button task foundation-open" href="#" data-reveal-id="myModal" >Add task</a>
+        </div>
+        <ul class="list" id="skn">
+            <!--<li>-->
+                <!--<h2>0Loremipsum0Loremipsum</h2>-->
+                <!--<div>-->
+                    <!--<span class='date_time'>Date</span><br/>-->
+                    <!--<i class="fi-check done"></i>-->
+                    <!--<i class="fi-pencil edit_task"></i>-->
+                    <!--<i class="fi-x remove_task"></i>-->
+                <!--</div>-->
+                <!--<p>000ipsammolestiaenobirepellendusLoremipsudolorsitamet,consecteturadipisicingelit.Beatae,eligendi.Loremipsumdolorsitamet.</p>-->
+            <!--</li>-->
+        </ul>
+    </div>
+
+
+    <script type="text/javascript" src="http://yandex.st/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/foundation/foundation.min.js"></script>
+    <script type="text/javascript" src="js/foundation/foundation/foundation.reveal.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+
+</body>
+</html>
