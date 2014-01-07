@@ -13,7 +13,6 @@ $(function(){
         var now = d.toString().slice(0,-14);
          return now;
     }
-//    alert(showDate());
 
     $(document).foundation();
     $("#skin").click(function(){
