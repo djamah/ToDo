@@ -17,7 +17,8 @@ ul {
 .task {
   float: right;
 }
-h2 {
+h2,
+.title_area {
   font-size: 30px;
 }
 ul.grid li {
